@@ -1,1 +1,1 @@
-# alx-system_engineering-devops
+Scripts showing how the various commands work
