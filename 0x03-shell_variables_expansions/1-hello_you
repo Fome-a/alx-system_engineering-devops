@@ -1,3 +1,2 @@
 #!/bin/bash
-USER="Ofome"
-echo "Hello $USER"
+echo "hello $USER"
