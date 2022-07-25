@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env bash
 #This prints "Best School" 10 times .
 
 i=0

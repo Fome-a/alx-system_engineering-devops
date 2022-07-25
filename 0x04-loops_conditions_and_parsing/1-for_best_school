@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env bash
 #This script is displaying "Best school 10 times"
 for i in {0..10}
 do

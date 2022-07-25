@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env bash
 #This file prints "Best School" 10 times and "Hi " at the 9th.
 
 i=0
