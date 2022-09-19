@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #This script authenticates your ssh key pair copying it into servers authorized key files.
 #Enables you log into the server via SSH without being prompted for a password.
-ssh-copy-id ubuntu@44.211.33.72
+cat ~/.ssh/school.pub | ssh ubuntu@44.211.33.72 "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys"
