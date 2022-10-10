@@ -4,7 +4,7 @@
 #!/usr/bin/env bash
 # Client configuration file
 
-Host 44.211.33.72
+Host 
 	User ubuntu
 	IdentityFile ~/.ssh/school
 	GSSAPIAuthentication yes
