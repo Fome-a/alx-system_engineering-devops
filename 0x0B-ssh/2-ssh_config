@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #This script authenticates your ssh key pair copying it into servers authorized key files.
 #Enables you log into the server via SSH without being prompted for a password.
-#!/usr/bin/env bash
 # Client configuration file
 
 Host 
