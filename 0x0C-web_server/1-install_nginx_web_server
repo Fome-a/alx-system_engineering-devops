@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #A bash script that automates the configuration of an Nginx web server
 
-apt-get update
-apt-get install -y nginx
-echo "Hello World" > /var/www/html/index.html
-cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
+sudo apt-get update
+sudo apt-get install -y nginx
+echo "Hello World!" > /var/www/html/index.html
+sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
+sudo service nginx restart
