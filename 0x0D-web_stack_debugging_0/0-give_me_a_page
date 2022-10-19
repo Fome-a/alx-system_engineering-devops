@@ -1,2 +1,5 @@
-VimCrypt~03!ä[{?Œçåüå”ì.¦y»õÑÙ0ƒüEty §×6q–ØñYÚk<o:›ñ4B]aÚ…™	¤çQê°*=M:›ğ„bUÚc¥Õ^R£åo±üğ}B)&µóÈÏRxg\÷‰Ã5ÏÊeY8û‘Ê“o‰DÃƒ-ØÕƒ‚ïm
-ûÍuŒ":?R:HiÁM¨PSh%évèí…Fvè
+#!/usr/bin/env bash
+# run apache on holbertonschool/265-0 container
+
+echo "ServerName localhost" >> /etc/apache2.conf
+service apache2 start
