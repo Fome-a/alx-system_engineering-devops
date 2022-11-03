@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Automation the configuration of a new server a new webserver
+
+apt-get update
+apt-get install -y nginx
+cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
+sed -i '/listen 80 default_server;/a add_header X-Served-By $hostname;' /etc/nginx/sites-available/default
+service nginx restart
