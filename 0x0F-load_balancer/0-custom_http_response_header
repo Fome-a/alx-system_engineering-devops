@@ -4,5 +4,5 @@
 apt-get update
 apt-get install -y nginx
 cp /etc/nginx/nginx.conf /etc/nginx/nginxbak.conf
-sed -i '/http {/a add_header X-Served-By $hostname;' /etc/nginx/nginx.conf
+sed -i "/http {/a add_header X-Served-By $hostname;" /etc/nginx/nginx.conf
 service nginx restart
